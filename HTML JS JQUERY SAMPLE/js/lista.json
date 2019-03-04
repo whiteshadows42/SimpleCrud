@@ -1,0 +1,34 @@
+{
+"resultado": [
+	{
+		"nome": "Jõao",
+		"sobrenome": "Pedro",
+		"idade": 15
+	}, 
+	{
+		"nome": "Joana",
+		"sobrenome": "Pedra",
+		"idade": 17
+	},
+	{
+		"nome": "Paulino",
+		"sobrenome": "Neis",
+		"idade": 23
+	}, 
+	{
+		"nome": "Juliano",
+		"sobrenome": "Ratto",
+		"idade": 21
+	}, 
+	{
+		"nome": "Pedro",
+		"sobrenome": "Alessi",
+		"idade": 19
+	}, 
+	{
+		"nome": "Louise",
+		"sobrenome": "Tona",
+		"idade": 21
+	} 
+ ]
+}

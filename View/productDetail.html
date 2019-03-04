@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Khadije El Zein">
+  <title>Visualizar Produto</title>
+  <!--<link href="css/bootstrap.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="../utils/tag (1).png" type="image/x-icon">
+</head>
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="modalLabel">Excluir Item</h4>
+        </div>
+        <div class="modal-body">
+          Deseja realmente excluir este produto? 
+          <h6>Esta operação não poderá ser desfeita.</h6>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-danger">Excluir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End of Modal--> 
+  <div class="wrapper">
+    <header class="main-header">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> <img src="../utils/tag (1).png"></a>
+          <a class="navbar-brand" href="#"> ProductsForYou </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Opções</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Ajuda</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main role="main">
+      <div class="container-fluid">
+        <div class="box-header with-border">
+          <h1 class="box-title">Visualizar Item Cama King Size</h1>
+        </div>
+        <div class="row">
+          <hr/>
+          <div class="col-md-6">
+            <h4><b>Nome do Produto</b></h4>
+            <p> Cama king Size </p>
+          </div>
+          <div class="col-md-6">
+            <h4><b>Quantidade em Estoque</b></h4>
+            <p>2</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4><b>Preço do Item</b></h4>
+            <p>R$ 100</p>
+          </div>
+          <div class="col-md-6">
+            <h4><b>Fornecedor</b></h4>
+            <p>Pernambucanas</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h4><b>Forma de Pagamento</b></h4>
+            <p>A vista</p>
+          </div>
+          <div class="col-md-6">
+            <h4><b>Pronta Entrega</b></h4>
+            <p>Disponível</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h4><b>Descrição do Produto</b></h4>
+            <p>Cama confortável para um casal que necessita de espaço</p>
+          </div>
+        </div>
+      <div class="row">
+        <hr/>
+        <div class=" box-footer col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a id="button_cancelar" class="btn btn-default" href = "index.html" href="index.html" style="float: right; margin-left: 1%">Voltar</a>
+          <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#delete-modal" style="float: right; margin-left:1%;">Excluir</a>
+          <a id="button_editar" href = "productUpdate.html" class= "btn btn-primary" style="float: right;">Editar</a>
+        </div>
+      </div>
+    </main>
+    <div class="container-fluid footer navbar-fixed-bottom">
+      <footer class="footer mt-auto py-3">
+        <div class="container">
+          <span class="text-muted">Made by Khadije El Zein Ver 1.0.</span>
+          <span>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
